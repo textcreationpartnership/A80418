@@ -1,0 +1,534 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A coole conference between the Scottish commissioners cleared reformation, and the Holland ministers apologeticall narration, brought together by a well-willer to both.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1644</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 50 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A80418</idno>
+            <idno type="STC">Wing C6045</idno>
+            <idno type="STC">Thomason E35_15</idno>
+            <idno type="STC">ESTC R19126</idno>
+            <idno type="EEBO-CITATION">99860580</idno>
+            <idno type="PROQUEST">99860580</idno>
+            <idno type="VID">112703</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A80418)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 112703)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 6:E35[15])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A coole conference between the Scottish commissioners cleared reformation, and the Holland ministers apologeticall narration, brought together by a well-willer to both.</title>
+               </titleStmt>
+               <extent>18 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1644]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>A reply to Thos. Goodwin's An apologeticall narration, 1643.</note>
+                  <note>Imprint fron McAlpin catalogue.  Wing suggests 1686 as imprint date.</note>
+                  <note>Annotation on Thomason copy: "March 4th 1643".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Goodwin, Thomas, 1600-1680. --  Apologeticall narration.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-09</date>
+            <label>Louis Goldberg</label>Sampled and proofread</change>
+         <change>
+            <date>2012-09</date>
+            <label>Louis Goldberg</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:112703:1" rendition="simple:additions"/>
+            <head>A COOLE CONFERENCE Between the Scottiſh Commiſſioners <hi>Cleared Reforma<g ref="char:EOLhyphen"/>tion,</hi> and the Holland Miniſters <hi>Apologeticall Nar<g ref="char:EOLhyphen"/>ration,</hi> brought together by a well-willer to both. 1644.</head>
+            <p>
+               <seg rend="decorInit">R</seg>Eformat. <hi>Whileſt we the meaneſt of many, &amp;c. wait for uni<g ref="char:EOLhyphen"/>formity in Religion, ſo much deſired by all the Godly in the three Kingdoms; unto which an entrance is made by a ſolemn League, and Covenant.</hi>
+            </p>
+            <p>
+               <hi>Apologet.</hi> We approve (worthy brethren) your expectation as juſt, and confeſſe our own deſires of it, ſo as <hi>Reformation</hi> be not taken <hi>indebite</hi> in a ſtrict ſtinted ſence, but according to your lati<g ref="char:EOLhyphen"/>tude expreſſed pag. 15. <hi>We are</hi> (ſay you) <hi>neither ſo ignorant, nor ſo arrogant as to aſcribe to the Church of Scotland</hi> (its your own phraſe) <hi>ſuch abſolute purity and perfection, as hath not need, or cannot admit of further Reformation.</hi> So you. A golden peace ſignifying ſpeech as if dropped from the mouth of ſome <hi>Chryſoſtome,</hi> or conceived by ſome <hi>Ireneus;</hi> pluck you that end, and we the other likewiſe, and we ſhall be faſtned with a <hi>Cordian</hi> knot. Of which our endeavour you have a full teſtimony in our League and Covenant, wherein we ſwear to <hi>indeavour the preſervation of the reformed Religion in Scotland;</hi> we ſay of <hi>Religion</hi> and <hi>Reformed;</hi> is, or ſhall be; and till further reformation, we <hi>will preſerve it againſt our common enemie,</hi> that you be not made to retreat from that you have wonne. And that <hi>we will indeavour the reformation of Religion in the Kingdoms of England and Ireland in doctrine, worſhip, diſcipline and government, according to the Word of God, &amp; the example of the beſt reformed Churches.</hi> So farre the Covenant. Wherein it is as evident as if written with a Sunne beame, that the Churches of England have not ingaged themſelves to come down to you, or do bind you to come to us, but the common rendevous where we muſt all meet is the <hi>beſt re<g ref="char:EOLhyphen"/>f<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ed Churches:</hi> and that <hi>according to the word of God,</hi> which is that Standard of perfection that muſt weigh and meaſure out unto us our <hi>uniformity.</hi>
+            </p>
+            <pb n="2" facs="tcp:112703:2"/>
+            <p>Reformat. <hi>We find our ſelves bound againſt the prejudices, and miſ<g ref="char:EOLhyphen"/>takings of ſome who in the dark are afraid of that which they know not, and ſuffer their affections of love and hatred to run before their underſtand<g ref="char:EOLhyphen"/>ing; and againſt the miſ-repreſentations and indirect aſperſions of others who do ſo commend their own way, that the reformed Churches thereby ſuffer diſparagement; to give that teſtimony unto the order and government of the reformed Churches, and particularly of the Church of Scotland, which they do well deſerve.</hi>
+            </p>
+            <p>
+               <hi>Apologet.</hi> Ah deare brethren, why would ye ſpeak thus? Do theſe expreſſions (in the judgement of <hi>candor</hi>) ſuit with your pro<g ref="char:EOLhyphen"/>feſſion, pag. 2. <hi>where you promiſe that you indeavour nothing but a ſimple and innocent manifeſtation and defence, without deſire or intention to give the ſmalleſt offence to any who fear God, love the truth, and, &amp;c.</hi> So you. Let an impartiall Angel ſpeak, whether multitudes of gracious hearts are not juſtly offended at this bitterneſſe ſo unſeaſonably adminiſtred, and applied too, to wrong parties? Ah, how eaſie is it by our ſelf-miſtaſting hearts (like the ſorry Artificer that makes two cracks, whiles he is patching and hammering up one) rather to cauſe prejudices, then cure them. You may be con<g ref="char:EOLhyphen"/>fident (let all the world look upon the Apologie and judge) that the <hi>five Members</hi> of the Aſſembly caſt no prejudices upon you, to whom you have ſo haſtily replied. And for private barkings of inconſiderate and inconſiderable men, they are either un<g ref="char:EOLhyphen"/>known or un-owned (as is ſuppoſed) by men of your gravitie. All wiſe men generally are ſilently intentive, expecting not paper replyes, but diſputed Poſitions from the Aſſembly, grounded on Scripture. And therefore this paper comes abroad onely to be<g ref="char:EOLhyphen"/>ſeech that on either ſide there may be committed no more brea<g ref="char:EOLhyphen"/>ches of the peace Eccleſiaſtick, and to leave the Apologie (if it may be) under the ſame candid opinion that rayed forth upon it afore this cloud came and interpoſed. Sure if the Houſes of<note place="margin">So the Ordi<g ref="char:EOLhyphen"/>nance for the Aſſembly. p. 5.</note> Parliament allow any of the Aſſembly differing in opinion touching the matters propoſed to them (whereof Diſcipline is one) to preſent their judgements with their reaſons unto the ſaid Houſes; you cannot judge it a crime to ſend forth a <hi>prodromum</hi> preſented to the Parliament to tell them and you how farre they cloſe with you and other reformed Churches, and diſſent from the Separation and Browniſts. And therefore have not deſerved to be whipt with a reply. Pardon the phraſe, for indeed it is a
+<pb n="3" facs="tcp:112703:2"/> ſmart ſtroke upon the ſpirits of underſtanding men, and ſtanding forth in and for a publick Eccleſiaſticall cauſe to be taxed for thoſe <hi>who in the dark are afraid of that which they know not, and to ſuffer their affections, &amp;c. to run before their underſtanding, &amp;c.</hi> Sweet bre<g ref="char:EOLhyphen"/>thren do you call your books (frequent among us) <hi>the government of the Church of Scotland the Aſſertion of your government, the peaceable Plea darkneſſe?</hi> Or do you think that the Elders of the <hi>Quinque Eccleſiae,</hi> or others that ſtudy Diſcipline to be dark? Are we not morall men (<hi>voluntas vult ut intellectus intelligit</hi>) to underſtand firſt, and affect after? Or wherein hath appeared this prepoſterouſ<g ref="char:EOLhyphen"/>neſſe towards you, whiles the Apologie ſmiles upon you, and ſweetly cals you and Holland by name the <hi>more reformed Churches,</hi>
+               <note place="margin">Apol p 6.</note> do you give them one ſuch a kind word in all your Reply? And more then that, you call not your ſelves, <hi>confeſſing a need of further Reformation</hi> as we noted, and quoted afore. If then they have commended your Churches according to your own judgements of your ſelves, how hath their commendation of other Churches appeared to diſcommend yours? eſpecially whiles they com<g ref="char:EOLhyphen"/>mend not their own for ſo perfect, but that they found a neceſſity of holding this for one of their three rules by which they walk<g ref="char:EOLhyphen"/>ed, in theſe words; <hi>Not to make our preſent judgement and practiſe a</hi>
+               <note place="margin">Apol. p. 10. 11.</note> 
+               <hi>binding law unto our ſelves for future, which we likewiſe made continuall profeſſion of upon all occaſions. We had too great an inſtance of our own frailty in the former way of conformity; and therefore in a jealouſie of our ſelves, we kept this reſerve (which we made open and conſtant profeſſions of) to alter and retract (though not lightly) what ever ſhould be diſcovered to be taken up out of a miſunderſtanding of the rule.</hi> So far the Apolog. There is yet one thing more that makes the Apologiſts more con<g ref="char:EOLhyphen"/>fident of their candor, in that it received ſo great an approba<g ref="char:EOLhyphen"/>tion from ſo pious and learned a man of your judgement, and a Member of the Aſſembly: As on the other ſide, though the Aſ<g ref="char:EOLhyphen"/>ſembly voted you thanks, yet was it onely for the books you gave them, not for the Reply, as it was expreſſe (to that effect) in the vote, if obſervation fail not.</p>
+            <p>Reformat. pag. 2. <hi>Our wayes ſince our coming into this Kingdom have been, and (ſo farre as the truth will ſuffer us) ever ſhall be, to unite, and not to divide; to compoſe rather then to create differences; the principall end of the Aſſembly of Divines.</hi>
+            </p>
+            <pb n="4" facs="tcp:112703:3"/>
+            <p>
+               <hi>Apol.</hi> Yet ſo contrary a face and voice to that, did this paper ſeem to have at firſt bluſh and ſound thereof, that ſome thoughts and throbs of heart began to doubt whether this blow (intended for a ſecond) upon an imagination of a firſt, were not given by ſome to carry on the deſigne of utter diſ-uniting the Preſ<g ref="char:EOLhyphen"/>byterians from others; or at leaſt to put them into a capacitie to be challenged and contended with; till the Title appeared <hi>By th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Commiſſi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ners of the Aſſembly of Scotland;</hi> and then all thoughts were turned to wonder, that ſuch grave perſonages ſhould onc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> think that this their paper could in the leaſt, tend to compoſall, or prove pacificatorie; eſpecially ſeeing it did carry a ſhew of taking <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he buſineſſe out of the hands of the Aſſembly (which you here mention) if the Apologie in any thing had been to be bla<g ref="char:EOLhyphen"/>med. But however notwithſtanding this extrajudiciall and ex<g ref="char:EOLhyphen"/>centricall act thus happening, we truſt, and ſhall indeavour that there may not be the leaſt miſ-contending in any kind about it, though many godly hearts may be grieved at it, and none can help it. Theſe lines we now pen are rather to intreat all not to <hi>miſtake</hi> the Apologie, then to <hi>take you up.</hi>
+            </p>
+            <p>Reformat. pag. 3. <hi>The order and government of the reformed Churches in the beauty and ſtrength thereof, as it is not hid in a corner, wrapped up in a myſtery, or covered under a cloud of darkneſſe, but is known to the Nations and kingdoms of the earth, openly profeſſed and practiſed in the eyes of the world, &amp;c. ſo it is commended and already confirmed by a long tract of time.</hi>
+            </p>
+            <p>
+               <hi>Apol.</hi> Yet we preſume you will joyne iſſue with us in this a<g ref="char:EOLhyphen"/>gainſt the Papiſts, that neither viſibilitie, nor ſucceſſion are eſ<g ref="char:EOLhyphen"/>ſentiall notes of a true Church. The holy Ghoſt propheſied that the true Church, <hi>Revel.</hi> 12. ſhould be hid in the wilderneſſe for a long time; as yours and ours were many yeers before <hi>Luthers</hi> time. You your ſelves confeſſe, pag. 16. <hi>That the uſurpation and ty<g ref="char:EOLhyphen"/>ranny of Prelates and Prelaticall party, did a time ſo reigne and rage in your Kingdom, vexing the godly Miniſtery and people, that thoſe that went to New England durſt not venter to come to you to find a viſible Church li<g ref="char:EOLhyphen"/>berty.</hi> And pag. 11. <hi>That you long time could but intend and deſigne the government of the Church by Aſſemblies and Presbyteries.</hi> So you. How viſible ſoever the Churches be, the eyes of <hi>the world</hi> (of which you ſpeak) will take but little cognizance; or if they do, will give but a ſlender teſtimonie to them; whiles one Church differing
+<pb n="5" facs="tcp:112703:3"/> but in ſome peeces of Diſcipline, will ſo diſ-favour others that jump not with them. Bleſſed be God (brethren) that God hath made a <hi>Rehoboth</hi> for you, that you are not now kept up in a cor<g ref="char:EOLhyphen"/>ner.<note place="margin">Gen. 26. 22.</note> Though other Churches have not yet attained that inlarge<g ref="char:EOLhyphen"/>ment of place and peace, yet they keep not up their minds in a <hi>myſtery</hi> if Narrations, Apologies and Diſputes may make men un<g ref="char:EOLhyphen"/>derſtand. And as for the clouds of darkneſſe which may cover them; who can hinder the winds if they blow and bring black weather out of the <hi>North,</hi> or <hi>Weſt,</hi> to obſcure them that love not to ſit out of the Sunne beams; much leſſe to be wrapt up in black ſheets. But they deſi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e with patience and peace to bear all; wait<g ref="char:EOLhyphen"/>ing till that great Queſtion be reſolved, which Diſcipline be the <hi>t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uly ancienteſt,</hi> and <hi>of longeſt tract of time (hic labor, hoc opus</hi>) and not to begge the queſtion.</p>
+            <p>Reformat. p. 4. <hi>The inſtruments which the Lord uſed in the bleſſed work of Reformation of the Church of Scotland, were not onely learned and holy men, but had ſomewhat in their callings, and gifts, and zeal to the glory of God, more then ordinary. Some of them had a propheticall ſpirit; and ſome of them were honoured to be Martyrs.</hi>
+            </p>
+            <p>
+               <hi>Apologet.</hi> Nor hath the Lord (bleſſed be his name) left us with<g ref="char:EOLhyphen"/>out ſuch. Perſecuted <hi>Brightman</hi> (whom p. 15. you name with ho<g ref="char:EOLhyphen"/>nour) had thoſe gifts of learning, zeal, and ſpirit of propheſie you mention; compare the late events both in <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Kingdome and ours with his Comment on the <hi>Revel.</hi> who though he did juſtly preferre your Churches in his time before ſome others, yet not a Claſſicall Presbytery before a Congregationall govern<g ref="char:EOLhyphen"/>ment, for ought that we have read or heard. And what leſſe then a ſpirit of propheſie was in that holy <hi>Martyr</hi> perſecuted to death by the Bp. that ſaid, <hi>that the Lord would bring in his own diſcipline in</hi>
+               <note place="margin">1 Sam. 3. 11.</note> 
+               <hi>his time in that way as would make all their eares to tingle:</hi> Which Scrip<g ref="char:EOLhyphen"/>ture phraſe, was conſtrued to be treaſon, though ſince like a pro<g ref="char:EOLhyphen"/>pheſie it is fulfilled. For martyrdome unto a civill death we can ſay ſomewhat more, thovgh we do but mention <hi>Cartwrit,</hi> and <hi>Parker,</hi> whom you juſtly mention with honour in your <hi>Peaceable Plea.</hi> But we liſt not to inlarge; therefore we omit our brethren in New England. Becauſe though martyrdome be a kinde of ſeal, yet being a broad ſeal to all the truths in the Scripture, it doth not diſtinguiſh <hi>ad apicem,</hi> to put a greater impreſſion on one truth then on another. For in all ages ſome Saints have by ſuf<g ref="char:EOLhyphen"/>fering
+<pb n="6" facs="tcp:112703:4"/> chiefly ſealed to ſome <hi>preſent truth:</hi> as the <hi>Apoſtles</hi> againſt<note place="margin">2 Pet. 1. 12.</note> 
+               <hi>Judaiſme,</hi> the <hi>Saints in the ten perſecutions</hi> againſt <hi>Hetheniſme, Atha<g ref="char:EOLhyphen"/>naſ<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>s</hi> againſt <hi>Arrianiſme, Luther</hi> againſt <hi>Papiſme, You</hi> againſt <hi>Pre<g ref="char:EOLhyphen"/>lacy.</hi> And others againſt an Eccleſiaſticall <hi>coactive power</hi> where Chriſt hath not ſetled it.</p>
+            <p>Reformat. pag. 7. <hi>As the Church of Scotland agreed in ſome things with the reformed Churches, ſo it cannot be ſatisfactory that any Church ſhould</hi> onely <hi>practiſe</hi> ſome <hi>things univerſally received in the re<g ref="char:EOLhyphen"/>formed Churches.</hi>
+            </p>
+            <p>
+               <hi>Apol.</hi> A bare relation of the words of the Apologie is a ſuffi<g ref="char:EOLhyphen"/>cient anſwer to this, which are theſe. 1 <hi>The ſupreme rule without us was the primitive pattern and example of the Churches erected by the Apoſtles. 2 Not to make our preſent judgement and practiſe a binding law unto our ſelves for future. 3 That in matters of greateſt moment and controverſie we ſtill choſe to practiſe ſafely, and ſo as we had reaſon to judge that all ſorts, or the moſt of all Churches did acknowledge warrantable.</hi> So the Apolog. By which words it is apparent that their intent and endeavour was not <hi>onely</hi> to practiſe <hi>ſome</hi> things univerſally recei<g ref="char:EOLhyphen"/>ved in the reformed Churches; but to go full as far forth, as the Churches founded by the Apoſtles. But for matters of <hi>greateſt mo<g ref="char:EOLhyphen"/>ment and controverſie,</hi> in what particulars the reformed Churches (in their beſt judgements) left the pattern of the Apoſtolicall Churches, ther<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> they ſuſpended their aſſent and practiſe, but joyning with them in the reſt. Keeping this for a reſerve, that when further light ſhould come in, that they might do more lawfully, then formerly they durſt do; then to do it, and be diſ<g ref="char:EOLhyphen"/>ingaged from their former judgement and practiſe, which in ef<g ref="char:EOLhyphen"/>fect you profeſſe, pag. 15. ſaying, that the Church of Scotland may admit of further reformation. Therefore it is ſuppoſed that for the preſent you <hi>onely</hi> practiſe <hi>ſome</hi> things of reformation; and that for future when you have more light and power, you will advance from your preſent practiſe to a further.</p>
+            <p>Reformat. pag. 6. <hi>They did honour</hi> Luther <hi>and</hi> Calvin, <hi>&amp;c. who had an heart or band, &amp;c. in the bleſſed work of Reformation, &amp;c. But for this to call us Calvinians, and the reformed Churches Calvinian reformed Churches, is to diſgrace the true Churches of Chriſt, and to ſymbolize with the Papiſts, who call themſelves the Catholick Church, &amp;c. The Separation may be well allowed to be called Browniſts.</hi>
+            </p>
+            <p>
+               <hi>Apologet.</hi> Ah brethren, from what ſpirit comes all this? The
+<pb n="7" facs="tcp:112703:4"/> whole deſigne of framing a confutation of a plain, ſimple, mo<g ref="char:EOLhyphen"/>deſt, ſingle hearted narration, reliſhed bitter upon multitudes of godly and judicious palates. But here we have met (if we miſ<g ref="char:EOLhyphen"/>take not the drug) with the <hi>Coloquintida,</hi> or if it be intended for a better <hi>Recipe,</hi> it is ſcalding hot, if our taſte fails us not. Can the Apologie poſſibly be conceived in the word <hi>Calvinian</hi> to in<g ref="char:EOLhyphen"/>tend the leaſt grain of diſgrace to any? Is it not the terme uſed in all the true Chriſtian Churches for diſtinctions ſake from the more corrupt <hi>Lutheran?</hi> Is it not in oppoſition to them (more cor<g ref="char:EOLhyphen"/>rupt) a terme of honour? Was it not uſed of purpoſe to decline the word <hi>Presbiterian,</hi> that leſſe offence might be taken whiles the termes now in controverſie were waved? Doth not the Apo<g ref="char:EOLhyphen"/>logie deeply profeſſe that multitudes of Churches in England were true Churches; and yet for honour of you, cals the Chur<g ref="char:EOLhyphen"/>ches of Scotland <hi>more reformed?</hi> But you object, that <hi>this is to ſym<g ref="char:EOLhyphen"/>bolize with the Papiſt, who call themſelves the Catholick Church:</hi> we take your objection to be our full anſwer. As ſure as the Papiſts do not intend to diſgrace themſelves in calling themſelves Ca<g ref="char:EOLhyphen"/>tholicks; ſo ſure is it beleeved that the <hi>Apologiſts</hi> who are <hi>Calvi<g ref="char:EOLhyphen"/>nians</hi> in Doctrine at leaſt (if not more) did not intend to diſgrace themſelves and the brethren (holding the ſame doctrine and truth) with the terme <hi>Clavinian.</hi> Yet, as if in revenge, you ding<note place="margin">Apol. p. 5.</note> the words <hi>Separation,</hi> and <hi>Browniſts</hi> againſt the Apologiſts, who had ſo clearly renounced that rigid opinion and way in their Apologie. As if you had forgotten, or did intend to miſ-apply what you had ſaid but the next line afore quoted out of <hi>Hierom. viz. If any where we find men profeſſing Chriſtianity, called by the parti<g ref="char:EOLhyphen"/>cular names of men, know them to be the ſynagogue of Antichriſt, and not the Church of Chriſt.</hi> Oh unhappie conjunction; oh heavy appli<g ref="char:EOLhyphen"/>cation, oh coal-black termes; <hi>Quod ego—Sed motos praeſtat componere fluctus.</hi> Were it not for patience, nay that would hardly do it; were it not for reverence of you and your Nation; an home anſwer would be ſhaped, to ſuch a miſ-ſhapen miſpriſion. But to love is to live. The Kingdom is on fire, we need not hold coals to one another. Peace be upon the ſons of peace; But let not that imputation fall upon us, to ſet our houſes on fire to roſt our own egges.</p>
+            <p>Reformat. pag. 10. <hi>Nothing was farrer from their thoughts and in<g ref="char:EOLhyphen"/>tentions then to frame in their own forge a lesbian rule anſwerable to any
+<pb n="8" facs="tcp:112703:5"/> particular form of civill policy, or compliable with State ends.</hi>
+            </p>
+            <p>
+               <hi>Apolog.</hi> Whether theſe words in the Apologie, pag. 3. (for you tread upon the heels of the Apologie ſtep after ſtep) <hi>We had no n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>w Common-wealths to reare, to frame Church government unto,</hi> do pro<g ref="char:EOLhyphen"/>voke to any ſuch anſwer, let all indifferent men judge. For who doth not know that you had no new Common-wealths to reare? This might farre eaſier been underſtood of New England, and yet without ſurmiſe of any blame laid upon them, who had the Kings Patent for what they did in policy, as Gods Word for Church government, which they have followed cloſe with a great deal of judgement.</p>
+            <p>Reformat. pag. 11. <hi>Nor do we know any reaſon why education in ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>und d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ctrine, and true worſhip ſhould be accounted a matter of thankeſ<g ref="char:EOLhyphen"/>giving to God, and yet ſhould glory in this, that we are not by education in<g ref="char:EOLhyphen"/>gaged i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> any one form of Diſcipline, and Church government, but left to our ſelves to be moulded by our own private thoughts.</hi>
+            </p>
+            <p>
+               <hi>Apolog.</hi> There is no ſuch doxologie in the Apologie, as to thank God for their diſengagedneſſe from, or non education in true reformed Churches. They expreſſe their ſorrow, that the defilement of the Churches of England, cauſed their exilement o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t of the Churches of England. Their naked words are onely theſe. <hi>We were not engaged by education, or otherwiſe, to any other of the</hi>
+               <note place="margin">Apol. p. 4.</note> 
+               <hi>reformed Churches.</hi> And for your intimated charge <hi>of being left to themſelves to be m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ulded by their own private thoughts, touching Church government,</hi> their own words do moſt tranſparently clear them. <hi>W<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> were not engaged</hi> (ſay they) <hi>by education, &amp;c. to other of the reform<g ref="char:EOLhyphen"/>ed</hi>
+               <note place="margin">Apol. p. 4.</note> 
+               <hi>Churches; yet we conſulted with reverence what they hold forth both in writings and practiſe. We had the advantage of all that light which the c<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>flicts of our Divines (the good old No conformiſts) had ſtruck forth in their times; and the d<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ughts of Diſcipline, which they had drawn. We had likewiſe the fatall miſcarriages and ſhipwracks of the Separation (whom ye call Browniſts) as land-marks to forewarne us of thoſe rocks and <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> they ran upon, and t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> enquire into the principles that might be the c<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f their diviſions. Laſt of all, we had the recent and later examples of the wayes, and practiſes (and thoſe improved to a better edition and greater re<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ement, &amp;c.) of thoſe multi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>udes of godly men of our own Na<g ref="char:EOLhyphen"/>ti<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> to the number of mother Nation, and among them ſome as holy and judi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us Divi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es as this Kingdom hath bred. All which we looked upon nakedly according to the Word of God.</hi> Thus the Apologie. Out
+<pb n="9" facs="tcp:112703:5"/> of which words the venemous ſpider of envy cannot (much leſſe you brethren that are men of a better ſpirit) extract and draw juſtly this concluſion, <hi>That the Apologiſts intended to mould a govern<g ref="char:EOLhyphen"/>ment in and by their own private thoughts.</hi> They were not ſo left to themſelves by the oppoſitions of the times, but that they carried with them the golden meaſuring reed of the Word of God; and did with all the judgement and divine aſſiſtance they had, mea<g ref="char:EOLhyphen"/>ſure and ſquare every inch as they built. Nor doth it yet appear to ſome that wiſhly look after theſe things, in what materiall things their buildings differ from others, unleſſe about the <hi>gene<g ref="char:EOLhyphen"/>rall</hi> and <hi>common</hi> roofe, whether it ſhall be the monſtrous <hi>Arches</hi> of Epiſcopacy, or the <hi>cemented vault</hi> of a claſſicall Presbytery, or of <hi>Jeruſalem</hi> work of an <hi>Apoſtolicall</hi> Councell. And this maine queſti<g ref="char:EOLhyphen"/>on is now among them, <hi>Quos penes arbitrium eſt, &amp; vis, &amp; norma lo<g ref="char:EOLhyphen"/>quendi.</hi>
+            </p>
+            <p>Reformat. pag. 11. <hi>The Churches planted by the Apoſtles, if not at firſt, yet afterwards were of greater number in one City, then did, or could ordinarily aſſemble in one place for the worſhip of God, and therefore had a plurality of Paſtors, and Officers, which made a common Presbytery for go<g ref="char:EOLhyphen"/>verning the whole.</hi>
+            </p>
+            <p>
+               <hi>Apologet.</hi> Theſe words makes a ſpeech of a Judge at an Aſſizes touching <hi>Lent-faſtings</hi> to come to mind. Who ſaid, <hi>that he could prove that Lent-fastings were of Apoſtolicall inſtitution for the last ſix hundred yeers.</hi> Whereupon one ſtanding by ſaid to another of his friends, <hi>That all the craft and cunning lay in this, for the Judge to prove it to be Apoſtolicall for the firſt ſix hundred yeers, or the firſt hundred or first f<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>urty yeers.</hi> But to return to the Apologie; whoſe words are milde, and ſoft, but as wooll-packs deadning Cannon ſhot, that the bullets can do no hurt, can make no battery. <hi>We could not</hi>
+               <note place="margin">
+                  <hi>Apol. p.</hi> 13.</note> (ſaith the Apologie) <hi>but imagine that the firſt Churches planted by the Apoſtles, were ordinarily, of no more in one City at firſt, then might make</hi>
+               <note place="margin">Obſerve that the ſame argu<g ref="char:EOLhyphen"/>ment that is urged to prove a Presbytery, was formerly urged by the Biſhops to prove an Epiſ<g ref="char:EOLhyphen"/>copacy.</note> 
+               <hi>up one entire congregation, ruled by their own Elders, that alſo preached to them: For that in every City where they came, the number of converts did, or ſhould ariſe to ſuch a multitude as to make ſeverall and ſundrie Congre<g ref="char:EOLhyphen"/>gations, or that the Apoſtles ſhould ſtay the ſetting up of any Churches at all, untill they roſe to ſuch a numerous multiplication as might make ſuch a Presbyteri<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll combination, we did not imagine. We found alſo the Non<g ref="char:EOLhyphen"/>conformiſts in their anſwer to the arguments uſed for Epiſcopall govern<g ref="char:EOLhyphen"/>ment over many Churches, brought from the inſtances of the multitudes of
+<pb n="10" facs="tcp:112703:6"/> beleevers at Jeruſalem, and other places and Cities mentioned in the New Testament, to aſſert, that it could not be infallibly proved that any of thoſe we read of in the Acts, or elſewhere, were yet ſo numerous, as neceſſarily to exceed the limits of one particular Congregation in thoſe first times.</hi> So the Apologie. The word <hi>afterwards</hi> hath a large extent, and there<g ref="char:EOLhyphen"/>fore d<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>h no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> punctually tell us whether you mean <hi>after</hi> the Apo<g ref="char:EOLhyphen"/>ſtles ti<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es or <hi>when,</hi> and therefore doth nothing weaken the Apo<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#MURP" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>i<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, and ſo you and we muſt leave it as we found it unblemiſh<g ref="char:EOLhyphen"/>ed in this, as the reſt; which is the onely deſigne in this paper, leaving it to diſputation to be diſcuſſed out.</p>
+            <p>Reformat. pag. 13. <hi>To a<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>uch when we are not challenged, that we <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> to the Magiſtrate then the reformed Churches do, they being <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> their own principles of Eccleſiaſticall government, may ſuffer a <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ſt<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uction then we our ſelves would willingly undergo, or put upon the intentions of men, who ſeek not their own things, but the things of Je<g ref="char:EOLhyphen"/>ſus Chriſt.</hi>
+            </p>
+            <p>
+               <hi>Apolog.</hi> Let the world judge whether the Apologizers and thoſe of their judgements were not <hi>challenged,</hi> when the <hi>Peaceable Plea</hi> cals them, not onely in the book, but in the title of the book in the face of the world, <hi>Independents.</hi> Which the Apologie could not but upon juſt grounds, count <hi>as a proud and inſolent title (for any</hi>
+               <note place="margin">Apol p 23.</note> 
+               <hi>to aſſume) and as a trumpet of defiance againſt what ever power, Spirituall or Civill;</hi> from them that ſhould be conceived to own it; and ther<g ref="char:EOLhyphen"/>fore do in expreſſe words there <hi>abhor it, and deteſt it:</hi> that Chur<g ref="char:EOLhyphen"/>ches, and Magiſtrates ſhould not looſe the true face of their judgement in ſuch a ſwelling title. For if upon a groſſe errour of<note place="margin">Ref<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rm. p. 23. C<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ule Be<g ref="char:EOLhyphen"/>z<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m de Hae<g ref="char:EOLhyphen"/>reticis a civili Magiſtr pu<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ndis.</note> an another Church they dare exerciſe onely a <hi>non communion</hi> with it, which after you call <hi>no authoritie;</hi> then there is more left for the Magiſtrate to do, then when you have excommunicated it, which you call there, your power. So likewiſe when a claſſicall Presbyterie, of many Miniſters and lay-men, and thoſe of great place and power in the Common-wealth, ſhall authoritatively rule all matters of ſixtie or an hundred Pariſhes that are but mixtly Eccleſiaſticall but partly ſecular or civill, if ſome of them not ſo altogether, one would think now that here were left leſſe to the Magiſtrate, then when every one of thoſe ſeverall Pariſhes regularly gathered into a Church way do meddle with no<g ref="char:EOLhyphen"/>thing, as Churches, but things purely Eccleſiaſticall; leaving the reſt to the Magiſtrate who is the civill power over them all. We
+<pb n="11" facs="tcp:112703:6"/> give for the preſent ſome ſmall inſtance to take off the prejudices of us that may be inſtilled into the minds of civill power by the abhorred name of <hi>Independancy;</hi> and not to bring any or their way into an <hi>odium</hi> with any; as we hope they in their books that have ſo oft up the names of <hi>Separation, Browniſme, Independancy, Popular Anarchie, &amp;c.</hi> do not intend to render us odious. For till Church government be clearly diſcuſſed according to the Scrip<g ref="char:EOLhyphen"/>tures, the ſcale is even which ſide (to uſe your own words) <hi>doth moſt imitate the Pagans and Infidels of old, the Papiſts, Prelates, and Ar<g ref="char:EOLhyphen"/>minians</hi>
+               <note place="margin">
+                  <hi>Reform. p.</hi> 13.</note> 
+               <hi>of late to make the way of Chriſt hatefull to Princes and Magi<g ref="char:EOLhyphen"/>ſtrates.</hi> And till it doth appear whoſe principles are cloſeſt to the rule of the Word, all will ſay (in your phraſe) <hi>that they give fully as much as any, to the Magiſtrate as God in his Word giveth them; and ſo cannot be more or leſſe.</hi> And for our own parts, to waſh our own hearts from finiſter intentions, we wiſh a curſe upon thoſe de<g ref="char:EOLhyphen"/>ſignes, that ſhall flatter men to facilitate a forming, and winding in of a Diſcipline that ſhall not be the cloſeſt to the Scriptures.</p>
+            <p>Reformat. pag. 17. No ſooner is <hi>the Prelaticall party by the power and bleſſing of God begun to be ſubdued in this Iſland, but ariſeth unexpect<g ref="char:EOLhyphen"/>edly the oppoſition on the other hand, waiting the opportunity, ſtronger then it was before, which moved ſome of our Divines of late to write on this hand in defence of the government of the reformed Churches, as others had done before them in other Churches.</hi> In France Beza <hi>againſt</hi> Morelius Sadeel. <hi>Two Nationall Synods alſo of the reformed Churches in</hi> France, <hi>the one at</hi> Orleans, 1561. <hi>Another at</hi> Rochel, 1571.</p>
+            <p>
+               <hi>Apolog.</hi> It ſhould ſeem by your own quotations here that long before your <hi>No ſooner,</hi> &amp;c. not ſtaying to <hi>wait this opportunitie,</hi> lear<g ref="char:EOLhyphen"/>ned and godly men have written, neer an hundred yeers ſince againſt Claſſicall Presbyteries, and for Congregationall Chur<g ref="char:EOLhyphen"/>ches. Beſides thoſe many worthy famous men which you quote with honour in your Peaceable Plea. As for Mr. <hi>Beza</hi> againſt <hi>Morelius Sadeel,</hi> his Tract is not at hand, and therefore we can<g ref="char:EOLhyphen"/>not now ſpeak to it particularly, But this <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ou know, that an ho<g ref="char:EOLhyphen"/>neſt <hi>Aeriu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> a Presbyter is condemned by a pi<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>s and learned <hi>Epi<g ref="char:EOLhyphen"/>ph<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nius</hi> as guiltie of hereſie, for ſaying <hi>that a B<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>hop did not differ from a Presbyter, but that a Presbyter was as high in dignity and order as the Biſhop</hi> 
+               <note n="*" place="margin">
+                  <hi>Quid eſt E<g ref="char:EOLhyphen"/>piſcopus ad Presbyterum? Nihil hic dif<g ref="char:EOLhyphen"/>fert ab illo, unus enim eſt ordo, &amp; unus (inquit) ho<g ref="char:EOLhyphen"/>nor, &amp; una dig<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>itas. Im<g ref="char:EOLhyphen"/>ponit manus Epiſcopus? ita etiam Presby<g ref="char:EOLhyphen"/>ter, &amp;c. Epip. contra haereſ. li. 3. To. 1. ca.</hi> 75.</note>. <hi>That to celebrate the Paſſeover was Jewiſh. That the pray<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rs of the l<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ving did not pr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>fit the dead. That their ordained ſet F<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſts Q<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rta &amp; pro Sabbató were not to be obſerved.</hi> Yet the ſame <hi>Epiphanius</hi> (who
+<pb n="12" facs="tcp:112703:7"/> flouriſhed about the yeer 365. after Chriſt, ſo long ſince) confeſ<g ref="char:EOLhyphen"/>ſeth, that <hi>Aerius was not alone in this opinion, but multitudes more, keep<g ref="char:EOLhyphen"/>ing</hi>
+               <note place="margin">Magnum m<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ltitu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ent virorum a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> muli<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>um allexit. <gap reason="illegible" resp="#MURP" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fibrii <gap reason="illegible" resp="#MURP" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> 
+               <hi>together (inform of a particular Church) with the ſaid Aerius, their Teacher, all of them living very ſoberly.</hi> For the two Synods you men<g ref="char:EOLhyphen"/>tion, for want of copies of them (nor do we in this buſineſſe de<g ref="char:EOLhyphen"/>ſire much to turn over books, but take what is ready at hand, un<g ref="char:EOLhyphen"/>leſſe hereafter we ſhall be forced thereunto) we ſhall ſpeak but a word in generall; that as one of the beſt of our Engliſh Articles t<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll us, <hi>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> have and may erre,</hi> therefore Synods. If <hi>Paphnutius</hi> were alive, he could tell us by experience. Chriſts enlightning and leading preſence is much according to the orderly gathering and managing of Synods. And for the Proteſtant Churches in <hi>Fran<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e;</hi> If we may beleeve our eares hearing the reports of ſome of the Miniſters of the French Churches here in England (conſi<g ref="char:EOLhyphen"/>derable too as the Dutch) or our eyes in reading the Eccleſiaſti<g ref="char:EOLhyphen"/>call Diſcipline of the reformed Churches in France, many mate<g ref="char:EOLhyphen"/>riall particulars, and paſſages are for us; which we omit here, as not intending a diſpute or largeneſſe in any thing. So that if things be weighed we are not ſo alone, or heterogeneall, as that we deſerve the opinion that we ſhould not be for the <hi>Reformed Churches</hi> ſo far forth as they be <hi>reformed,</hi> at leaſt as much as the <hi>Presbyterians.</hi>
+            </p>
+            <p>To thoſe intimations of Reform. pag. 19. that the Apologizers <hi>exile was volun<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ary</hi>: they carried away <hi>Churches with them, and left the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ther Church<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s,</hi> that ſtayed behind, <hi>expoſed to the enemie;</hi> The Apol. hath no more to ſay at this time, but this. That their <hi>exile</hi> at moſt was but as <hi>volunta<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y,</hi> as the Seamens<note n="*" place="margin">
+                  <hi>Voluntate <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>xta ſemi<g ref="char:EOLhyphen"/>plena,</hi> with an unwil<g ref="char:EOLhyphen"/>ling will.</note> caſting their lading into the Sea, to ſave themſelves from drowning. They took no more then Chriſt gave them: when they <hi>perſecute you in one place, fly into another, as Chriſt and his parents did.</hi> And they did no more ex<g ref="char:EOLhyphen"/>poſe the Church to the enemie, then as in all ages other godly Colonies of Saints have done in departing to <hi>Francfort, Holland,</hi> and <hi>New England,</hi> leſt they themſelves alſo had been ſwallowed up too, and the other Churches never an <hi>iota</hi> relieved by it; but kept themſelves for a reſerve, to aſſiſt the Church at their return. Hoping that if they were blamed for their <hi>voluntary departing,</hi> they ſhall not for their <hi>voluntary return;</hi> to <hi>unexpoſe</hi> the Church to the leaſt claw, or ſhadow of Prelacy.</p>
+            <p>Reformat. p. 21. <hi>T<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> limit the con<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iere of excommunication, in matter
+<pb n="13" facs="tcp:112703:7"/> of opinion</hi> to the common and uncontroverted principles, and in<note place="margin">The true copy of the Apology is thus. Excom<g ref="char:EOLhyphen"/>munication we iudge ſhould be put in exe<g ref="char:EOLhyphen"/>cution for no other kind of ſins, th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n may evidently b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> preſumed to be perpetrated againſt the parties known light, as wh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ther it be a ſi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> in manners &amp; converſa<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>n, ſuch as is c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m<g ref="char:EOLhyphen"/>mitted ag<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t the light of na<g ref="char:EOLhyphen"/>ture, or the common rece<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ved practiſes of Chriſtianity profeſſed in the Church of Chriſt. Or if in opinion, then ſuch as are likewiſe con<g ref="char:EOLhyphen"/>trary to the re<g ref="char:EOLhyphen"/>ceived prin<g ref="char:EOLhyphen"/>ciples of Chri<g ref="char:EOLhyphen"/>ſtianity, &amp; the power of god<g ref="char:EOLhyphen"/>lines profeſſed by the p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rty himſelf, &amp; uni<g ref="char:EOLhyphen"/>verſally ac<g ref="char:EOLhyphen"/>knowledged in all the reſt of the Chur<g ref="char:EOLhyphen"/>ches, and <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r ſins to be the ſub<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ect of that dreadfull ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ntence.</note> the matter of manners to the common and univerſall practiſes of Chriſtianitie, and in both to the parties known light, <hi>is the danger<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us doctrine of the Arminians, and Socinians, openeth a wide doore, and proclaimeth liberty to all other practiſes and errours which are not fun<g ref="char:EOLhyphen"/>damentall, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> u<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iverſally abhorred by all Chriſtians, and tendeth to the overth<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>w of the Reformed Religion, which we wiſh all ſound and ſober ſpi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>its t<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> abſtain fr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m, leſt it render them and their profeſſion ſuſpected of ſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me ſu<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>panions <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> and practiſes, as in chari<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ie we judge to be fa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> from their minds and <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</hi>
+            </p>
+            <p>
+               <hi>Ap<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>g.</hi> If <hi>Pagans</hi> and <hi>Infidels</hi> do not practiſe, and <hi>Papiſts, Pre<g ref="char:EOLhyphen"/>lates, S<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>inians, A<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>minians, B<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>owniſts, Separatiſts, &amp;c.</hi> do not hold ſome common truths with Chriſtians (as ſence is common to men and be but condoll our condition, that when we aſſert (againſt miſ-opinion of us) that we give to Magiſtrates as much as the Presbyterians do, we are compared to <hi>Pagans, In<g ref="char:EOLhyphen"/>fidels, Prelates,</hi> &amp;c. as bringing the way of Chriſt into hate with Princes: when we ſpeak for a conforming of Church govern<g ref="char:EOLhyphen"/>ment to the cloſeſt agreement with the Scriptures, we are compa<g ref="char:EOLhyphen"/>red to <hi>Brown<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſts, S<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>paratiſts, Independents,</hi> and <hi>Popular Anarchie.</hi> When we judge that excommunication ſhould not be but of per<g ref="char:EOLhyphen"/>ſons preſumed to ſin againſt their own light, &amp;c. we are compa<g ref="char:EOLhyphen"/>red to <hi>S<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cinians</hi> and <hi>Arminians,</hi> if not ſemi-ſuſpected to be ſuch, though not by any Engliſh heart. If theſe be right forms of con<g ref="char:EOLhyphen"/>futation, the common people will begin to pride up themſelves as to have ſaid ſomewhat to the Queſtion now in controverſie, whiles they aſſert (inſtead of better arguments) <hi>that a Biſhop is a Presbytery contracted; and a Presbytery is a Biſhop diffuſed.</hi> The former is as a preſident; the other as a Commiſſion exerciſed by many. Doth not this very particular of excommunication teſtifie for us that the Congregational way doth leave more to the Magiſtrate, then the Presbyterie do? Many offences are to be puniſhed <hi>bodily,</hi> by the Civill Magiſtrate, that are not to be cenſured with that <hi>ſpirituall</hi> higheſt cenſure of Excommunication. Which being a <hi>ſhutting out of heaven,</hi> and <hi>a giving up to Satan,</hi> had need of better grounds then mens ſinning of ſimplicitie, or ignorance. The very Prelates, at leaſt pretended wilfull obſtinacy for their Excommu<g ref="char:EOLhyphen"/>nications. And the great puniſhment of Excommunication in<g ref="char:EOLhyphen"/>flicted for ſmall faults, will make the puniſhment at laſt ſmall in
+<pb n="14" facs="tcp:112703:8"/> the eyes of men. But if it be reſtrained to great faults againſt the parties light, men will think the puniſhment to be like the ſin. And yet no doare ſet open to other vices; which Civil power may puniſh <hi>externally</hi> for the fact; whiles Churches look upon faults <hi>ſpiritually</hi> in relation to the mind, with what <hi>will</hi> they were committed.</p>
+            <p>Reformat. pag. 23. <hi>Two maine objections are made againſt the prin<g ref="char:EOLhyphen"/>ciples and practiſe of the order and government of the Reformed Churches. One is that there is no need of authoritative power of Presbyteries, and Sy<g ref="char:EOLhyphen"/>nods, and that the exhortation of particular Churches one to another, the Proteſtati no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> one againſt another, and the withdrawing of communion one from another, may be a ſufficient remedie, and no leſſe effectuall againſt all offences then Excommunication it ſelf; eſpecially if the Magiſtrate ſhall vouchſafe his aſſiſtance, and interpoſe his authoritie, for ſtrengthning th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſentence of</hi> Non communion.</p>
+            <p>
+               <hi>Apolog.</hi> There is not one word in the Apologies diſcourſe of this point to extenuate the power of <hi>Synods;</hi> which being accor<g ref="char:EOLhyphen"/>ding to the Scriptures, they hold them in the higheſt eſteeme that ever the Scripture advanced them to. And on the other ſide, they there give us an expreſſe, that beſides the ſaid exhortations, proteſtations, and Non communion, that they profeſſe them<g ref="char:EOLhyphen"/>ſelves ever to ſubmit, and alſo to be moſt willing to have recourſe to the civill Magiſtrate interpoſing a power of another nature, upon his particular cognizance, and examination of ſuch cauſes.</p>
+            <p>Reformat. pag. 21. 22. <hi>To the ſaid objection we anſwer,</hi> 1 (for there are 5 anſwers by way of direct confutation) <hi>that this objection ſuppoſeth a caſe, which hath not been found in the Church of Scotland for the ſpace of eightie yeers, and beleeve was never heard of in any of the Re<g ref="char:EOLhyphen"/>formed Churches, except thoſe of the</hi> Separation: <hi>the pronouncing of Non communion or Excommunication against a whole Church. Our Excommu<g ref="char:EOLhyphen"/>nication hath been executed but ſeldome againſt particular members, never againſt a whole Church, and we think never ſhall be; and therefore this imaginarie fear of that which never falleth out, is not conſiderable, rules are made for ordinarie, and uſuall caſes.</hi>
+            </p>
+            <p>
+               <hi>Apolog.</hi> Who that have ſeriouſly read and weighed the Apo<g ref="char:EOLhyphen"/>logie, and therein their diſclaiming of the Separation properly ſo called, their owning the Churches of Scotland and many in England for true Churches, their juſt account of their practiſe in Holland, and their proceedings towards the Church miſtaking,
+<pb n="15" facs="tcp:112703:8"/> would after all this call the Apologizers Churches, <hi>Churches of the Separation;</hi> unleſſe withall they expreſt they meant Separation from the Prelates wayes, as Scotland and England now do. But what ever true Churches be named, we ſee no reaſon (though others beleeve <hi>quod factum non eſt, nec fieri poteſt;</hi> that which never hath been, never ſhall be) but that they may be incident and li<g ref="char:EOLhyphen"/>able to fall into that caſe of having to do with a whole parti<g ref="char:EOLhyphen"/>cular Church erring; eſpecially till thoſe ſwarmes of <hi>Anabaptiſts, Antinomians,</hi> &amp;c. which have been ſo oft intimated and ſounded in our eares, be allayd. You (brethren your ſelves) ſuppoſe more, and therefore you may ſuppoſe the leſſe. For in your ſecond an<g ref="char:EOLhyphen"/>ſwer to this objection (as you call it) you ſuppoſe that <hi>two, or more Churches may mutually proteſt and pronounce the ſentence of non com<g ref="char:EOLhyphen"/>muni<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> one againſt another. <hi>In which caſe, ſay you, pronouncing of non com<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ion would prove rather a meane of diviſion, then of union, and there wou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d be no remedy (where the cenſure is mutuall) to compoſe this difference, unleſſe there be a common Presbytery, or Synod made up of the whole.</hi> To which we anſwer, that this caſe hath befallen Provin<g ref="char:EOLhyphen"/>ces, and National prelaticall Churches, in matter of Excommu<g ref="char:EOLhyphen"/>nication too, each of them having a ſeverall Pope in them have excommunicated one another. And we ſee not that antidote in one of the wayes you mention, namely, a <hi>Claſſicall Provinciall Preſ<g ref="char:EOLhyphen"/>bytery,</hi> but that one provinciall Presbytery may proteſt againſt and excommunicate the other. For the other way (for you pro<g ref="char:EOLhyphen"/>pound two, and we are willing to take the beſt) namely, a Na<g ref="char:EOLhyphen"/>tionall <hi>Synod,</hi> gathered and guided according to the Scriptures, we willingly embrace. And they that will not take the judge<g ref="char:EOLhyphen"/>ment of ſuch a Synod, having no Scripture to alledge juſtly, againſt their reſolutions, let them fall into the hands of the Ma<g ref="char:EOLhyphen"/>giſtrate, the Preſerver of the publick peace. This ſame reply ſerves to your third and fourth anſwer. We need adde but a word in reply to your fifth anſwer, wherein you demand by <hi>what proba<g ref="char:EOLhyphen"/>bility it can be made to appear to any rationall man, and indifferent mind, that no authoritie ſhall be as valid as authoritie againſt the obſtinate, that</hi> Via admonitionis &amp; requiſitionis <hi>is equall with</hi> Via citationis, &amp; publicae authoritatis? To which we anſwer, that if it be ſtated that that is <hi>authoritie,</hi> which is Scripture authoritie (and not elſe) and that to be moſt valid that convinceth and conquers <hi>actus eli<g ref="char:EOLhyphen"/>citos, the mind,</hi> rather then that which doth onely manacle and
+<pb n="16" facs="tcp:112703:9"/> conſtraine, <hi>actus imperat<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, the outward carriage;</hi> the demand is ſoon anſwered. Is the way of admonition, proteſtation, and non com<g ref="char:EOLhyphen"/>munion, no authoritie? Is that no authoritie that tels us <hi>we muſt give no offence, Better a milſtone were hanged about ones neck, and he caſt into the Sea, then to offend a weaker brother. That we were better not eat fleſh then to offend, &amp;c.</hi> Or is it no authoritie, when a whole Church after faſting and prayer, and clear diſputation, ſhall tell the ob<g ref="char:EOLhyphen"/>ſtinate erring, that upon thoſe grounds they will withdraw from them as <hi>from Heathens and Publicans?</hi> The truth is, that the pre<g ref="char:EOLhyphen"/>laticall men have made much uſe of this your caſe alledged to plead for Biſhops, as moſt neceſſarie to keep Churches in union. But Gods authoritie held forth to us in the judgements of Na<g ref="char:EOLhyphen"/>tionall Synods according to the Word, will prove more effectu<g ref="char:EOLhyphen"/>all then any humane inſtituted way whatſoever, to unite Churches.</p>
+            <p>Reformat. pag. 24. <hi>The other objection is; that by this authoritie and order of government, one Church hath power over another: which is contra<g ref="char:EOLhyphen"/>rie to that libertie and equalitie Chriſt hath endewed his Churches with, and is no other but a n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>w prelaticall dominion ſet over the Churches of Chriſt. To this (ſay you) we anſwer. 1 That we are far from impoſing any ſuch c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>terall power. The power which we maintain is aggregative of the Offi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ers of many Congregations over the particular members; in which (as in the naturall and politick body) one member is not ſubject to another, but is to the whole. 2 It is (ſay you) a miſerable miſtake to compare Preſ<g ref="char:EOLhyphen"/>byteries and Prelates together. For the Courts of Prelates are altogether f<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rrain and extrinſecall in the Congregations, over which they rule. But the power of Presbyteries is intrinſecall and naturall, they being conſtitute of the Paſtors and Elders of the particular Congregations <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ver which they are ſet. So that another without themſelves doth not bear rule over them, but all of them by common conſent do rule over every one; which is no more then <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>r a memb<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f a particular Congregation, to be ruled by his own particular Eld<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſhip. F<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r they diſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ern no ſentence of excommunication of any mem<g ref="char:EOLhyphen"/>ber without the knowledge, and conſent of the particular Congregation that is particularly concerned therein.</hi>
+            </p>
+            <p>
+               <hi>Apolog.</hi> You ſay you <hi>impoſe n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t a collaterall power.</hi> Sure your laws do impoſe that one congregation ſhall be ſubject to the Elders (ſuppoſe) of twenty congregations. And the authority of 19 of them is as <hi>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>llaterall.</hi> The congregations every one choſe their own officers to rule over themſelves in the Lord. But we heare
+<pb n="17" facs="tcp:112703:9"/> not you ſay that they choſe their Officers to rule over themſelves and others; though we hear you ſay that the Officers themſelves are readie enough to conſent ſo to rule: which is as extrinſecall as Epiſcopacie, if Epiſcopacie be as intrinſecall as Presbyterie. For are not Biſhops choſen by the people at their inſtalment; where cuſtomarily people are allowed to make any juſt excepti<g ref="char:EOLhyphen"/>on; and hath in part been practiſed in England, though with little ſucceſſe in their domineering times? Juſt as anciently, (as <hi>Hieronimus</hi> tels us) <hi>Vnus eligebatur qui caeteris preponoretur, &amp;c. To av<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>id ſchiſme, one of the claſſ<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>all Presbytery was choſen to be as Chai<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>-man</hi> over them all in their Conſiſtorie, who from being ſo annually, at laſt became ſo for his life time, and ſo hence was born Epiſco<g ref="char:EOLhyphen"/>pacy. Beſides we know that the Biſhop and his Chaplains, Chancellour, Archdeacon, Regiſter, &amp;c. were pariſhioners with<g ref="char:EOLhyphen"/>in their own Dioceſſe; if not Elders or Officers in their ſeverall congregations. And people formerly have been as willing they ſhould reigne, as ever any people were in your Kingdom to have the Presbyterie over them. And the Biſhops on the other ſide did as cunningly comply with the Congregations; they grounding their Court proceedings upon the Church-wardens or Pariſh Elders preſentments upon the peoples complaints and teſtimony, and did not paſſe an Excommunication without the ſubſcription of the hand of a Miniſter or two of that Archdeaconrie, or Coun<g ref="char:EOLhyphen"/>tie-Presbyterie; and laſt of all, the Excommunication was not pronounced without the conſent of the Miniſter of the particular Congregation. So that it is clear, it is not peoples conſent onely, but if according to the Word, that makes a government lawfull. God hath chalked out to us patterns of people chuſing Officers for the congregation. And congregations chuſing men for Sy<g ref="char:EOLhyphen"/>nods or Councels, but not (as we conceive) of chuſing men to make a middle claſſicall Presbyterie. What ever plauſible ſhews of reaſon may ſeem to commend a way, yet onely Gods way ſhall have the bleſſing of God upon it. And if it cannot be reſolved on all hands as yet, clearly which is it, let that your golden ſpeech be written upon all your actions. <hi>That th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſe that are m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſt averſe to</hi>
+               <note place="margin">☜ <hi>Reform. p.</hi> 26.</note> 
+               <hi>Presbytery if they allow no materiall difference in doctrine, worſhip, or pra<g ref="char:EOLhyphen"/>ctiſe, might inj<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y their peace, and all comforts of their Miniſtery, and pro<g ref="char:EOLhyphen"/>feſſion under it, without controlment of that authoritative power which
+<pb n="18" facs="tcp:112703:10"/> they ſo much apprehend.</hi> We have been of late made to fear the con<g ref="char:EOLhyphen"/>trary, by the reports of ſome (not of meaneſt rank) of your own Nation, but now we deſire rather to hope upon your words here given under your own hands, then fear by reaſon of theirs. Truſt<g ref="char:EOLhyphen"/>ing alſo that as you were kindly invited to our Aſſembly, ſo you will be as helpfull to our poore <hi>Churches</hi> as your Armies by God<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> bleſſing are like to be the <hi>Common-wealth;</hi> according as both Na<g ref="char:EOLhyphen"/>tions have vowed <hi>to indeavour the reformation of Religion in the King<g ref="char:EOLhyphen"/>doms of England and Ireland in Doctrine, Worſhip, Diſcipline, and Go<g ref="char:EOLhyphen"/>vernment, according to the Word of God.</hi>
+               <note place="margin">
+                  <hi>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> p.</hi> 26.</note>
+            </p>
+            <p>
+               <hi>We crave leave to conclude with your own words, hoping we may as con<g ref="char:EOLhyphen"/>fidently ſpeak them as you did; namely,</hi> That ſo much for the preſent have we ſaid, not for confutation, but meerly for juſtifying our own and other reformed Churches againſt ſuch miſ-repreſent<g ref="char:EOLhyphen"/>ings and miſtakings, as in matters of Religion are too frequent in this place, a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> this time, &amp;c.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
